@@ -46,7 +46,7 @@ section#login {
   height: 200px;
   background: var(--cor-azul-mais-leve)
     url(../imagens/pexels-pixabay-268533.jpg) no-repeat center center / cover;
-  border-radius: 20px 20px 0px 0px;
+
 }
 #formulario {
   display: block;
