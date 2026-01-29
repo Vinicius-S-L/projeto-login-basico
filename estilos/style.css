@@ -16,7 +16,6 @@
 body {
   height: 100vh;
   width: 100vw;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 main {
   position: relative;
@@ -46,14 +45,10 @@ section#login {
   height: 200px;
   background: var(--cor-azul-mais-leve)
     url(../imagens/pexels-pixabay-268533.jpg) no-repeat center center / cover;
-
 }
 #formulario {
   display: block;
   text-align: center;
-  font:
-    italic 150 1em "Times New Roman",
-    serif;
   padding: 2%;
 }
 h1 {
@@ -64,10 +59,12 @@ h1 {
     Times,
     "Times New Roman",
     serif;
-
 }
-#formulario > p{
+#formulario > p {
   margin: 10px;
+  font:
+    italic 150 1em "Times New Roman",
+    serif;
 }
 div.campo {
   display: flex;
@@ -80,9 +77,8 @@ div.campo {
 div.campo > span {
   font-size: 1.5em;
   padding: 5px;
-
 }
-label{
+label {
   display: none;
 }
 
